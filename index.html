@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrambler</title>
+    <script src="/jquery.min.js" type="text/javascript"></script>
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <script src="/Content/bootstrap.min.js" type="text/javascript"></script>
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KX6DK1KK2X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-KX6DK1KK2X');
+    </script>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+        <hr class="solid">
+
+    <div id="page-wrap">
+        <h1>Number Stream Scrambler</h1>
+        <div id="black-screen" class="black-screen"></div>
+        <button id="run-random" class="btn btn-primary btn-lg">Run Random Numbers</button>
+
+        <hr class="solid">
+        <h1>Keypad Scrambler</h1>
+        <div id="keypad" class="keypad"></div>
+        <button onclick="renderKeypad()" class="btn btn-primary btn-lg">Scramble Keypad</button>
+
+        <hr class="solid">
+
+    </div>
+    <script src="scripts/main.js" type="text/javascript"></script>
+</body>
+</html>
